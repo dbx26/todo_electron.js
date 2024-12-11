@@ -1,5 +1,7 @@
 # Package the App
 npx electron-packager . electron-angular-todo --platform=win32 --arch=x64 --out=release-builds --overwrite
+
+
 --platform=win32: Builds for Windows.
 --arch=x64: Builds for 64-bit systems.
 --out=release-builds: Saves the executable in the release-builds folder.
